@@ -1,0 +1,50 @@
+.headerWrapper{
+    margin-top: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.formWrapper{
+    margin-top: -64px;
+}
+
+.searchWrapper{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchWrapper input{
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.searchWrapper button{
+    padding: 5px ;
+    margin-left: 5px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.searchWrapper button:hover{
+
+    background-color: rgb(141, 70, 20);
+}
+
+.searchWrapper select{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid chocolate;
+}

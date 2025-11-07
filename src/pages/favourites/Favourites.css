@@ -1,0 +1,31 @@
+
+.favourites{
+  color: white;
+}
+.favourites h2{
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  
+}
+
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;    
+  width: 100%;
+}
+
+.backBtn{
+  border: none;
+  padding: 10px;
+  background-color: chocolate;
+  color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;}
+
+.backBtn:hover{
+  background-color: rgb(141, 70, 20);
+}
